@@ -170,6 +170,7 @@ class _TaskListsState extends ConsumerState<TaskLists> {
         child: Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
       child: Stack(
+        // svg
         children: [
           AnimatedPositioned(
             duration: Duration(seconds: 2),

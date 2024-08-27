@@ -157,7 +157,6 @@ class LocalNotifictionServiece {
       tz.setLocalLocation(tz.getLocation(timeZoneName));
     }
       try{
-        var notificationResponseType;
       await flutterLocalNotificationsPlugin.zonedSchedule(
         androidScheduleMode: AndroidScheduleMode.exact,
 

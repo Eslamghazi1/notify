@@ -33,6 +33,7 @@ class _TaskTileState extends ConsumerState<TaskTile> {
           borderRadius: BorderRadius.circular(16),
           color: _getBGClr(widget.task.color),
         ),
+        // svg
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,

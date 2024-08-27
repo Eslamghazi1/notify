@@ -13,6 +13,7 @@ class SizeConfig {
     orientation = _mediaQueryData.orientation;
   }
 }
+// SizeConfig.orientation == Orientation.landscape
 
 // Get the proportionate height as per screen size
 double getProportionateScreenHeight(double inputHeight) {
